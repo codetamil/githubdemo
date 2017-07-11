@@ -1,0 +1,66 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Index</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+  <h2>Table</h2>
+  <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>                                                                                      
+  <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Anna</td>
+        <td>Pitt</td>
+        <td>35</td>
+        <td>New York</td>
+        <td>USA</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+
+
+<h2>Form </h2>
+
+<form action="HelloController" method="post">
+NAME:<input type="text" name="uname" required/>
+
+EMail:<input type="email" name="email" required/>
+
+Phone:<input type="text" name="phone" required/>
+
+<input type="submit" value="Register"/>
+
+
+
+</form>
+
+</body>
+</html>
